@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/tensorflow-notebook
+FROM quay.io/jupyter/tensorflow-notebook:tensorflow-2.15.0
 
 # Install in the default python3 environment
 RUN conda install -c conda-forge opencv && \
